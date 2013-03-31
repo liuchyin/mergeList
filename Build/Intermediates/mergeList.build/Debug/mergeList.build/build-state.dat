@@ -1,0 +1,69 @@
+TmergeList
+v5
+r1
+cCheck dependencies
+cCompileC Build/Intermediates/mergeList.build/Debug/mergeList.build/Objects-normal/x86_64/main.o /Users/Cong/Desktop/Work/algorithm/mergeList/mergeList/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/Cong/Desktop/Work/algorithm/mergeList/Build/Products/Debug/mergeList normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000503F1B7700000000000000AA
+t1346313079
+s170
+
+N/Users/Cong/Desktop/Work/algorithm/mergeList/Build/Intermediates/mergeList.build/Debug/mergeList.build/Objects-normal/x86_64/main.o
+t1362491462
+s71904
+
+N/Users/Cong/Desktop/Work/algorithm/mergeList/Build/Intermediates/mergeList.build/Debug/mergeList.build/Objects-normal/x86_64/mergeList.LinkFileList
+c000000005135F6550000000000000084
+t1362490965
+s132
+
+N/Users/Cong/Desktop/Work/algorithm/mergeList/Build/Products/Debug/mergeList
+t1362491462
+s17276
+
+N/Users/Cong/Desktop/Work/algorithm/mergeList/mergeList/main.cpp
+c000000005135F84C000000000000067D
+t1362491468
+s1661
+i<iostream>
+
+CBuild AST from /Users/Cong/Desktop/Work/algorithm/mergeList/mergeList/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies83c2e4cc2fe6b641^f9f4e4cc2fe6b641^---0#1#0#--18"Check dependencies36"5518DEBD-A618-4505-B274-AABCAF262AE8-
+
+CCompileC Build/Intermediates/mergeList.build/Debug/mergeList.build/Objects-normal/x86_64/main.o /Users/Cong/Desktop/Work/algorithm/mergeList/mergeList/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s384184268.895854
+e384184269.326375
+r1
+xCompileC
+xBuild/Intermediates/mergeList.build/Debug/mergeList.build/Objects-normal/x86_64/main.o
+x/Users/Cong/Desktop/Work/algorithm/mergeList/mergeList/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/Cong/Desktop/Work/algorithm/mergeList/mergeList/main.cpp:97:21: warning: variable 'head1' is uninitialized when used here [-Wuninitialized]
+o    print(mergeList(head1, head2));
+o                    ^~~~~
+o/Users/Cong/Desktop/Work/algorithm/mergeList/mergeList/main.cpp:90:16: note: initialize the variable 'head1' to silence this warning
+o    Node* head1;
+o               ^
+o                = nullptr
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/Cong/Desktop/Work/algorithm/mergeList/mergeList/main.cpp6e6de5cc2fe6b641^3b8e53cd2fe6b641^-423"/Users/Cong/Desktop/Work/algorithm/mergeList/mergeList/main.cpp:97:21: warning: variable 'head1' is uninitialized when used here [-Wuninitialized]    print(mergeList(head1, head2));                    ^~~~~/Users/Cong/Desktop/Work/algorithm/mergeList/mergeList/main.cpp:90:16: note: initialize the variable 'head1' to silence this warning    Node* head1;               ^                = nullptr1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@48"Variable 'head1' is uninitialized when used here-384184269#18446744073709551615#0#1(2@55"Initialize the variable 'head1' to silence this warning-384184269#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@79"file://localhost/Users/Cong/Desktop/Work/algorithm/mergeList/mergeList/main.cpp0000000000000000^89#15#89#15#1498#0#14"Semantic Issue1(3@79"file://localhost/Users/Cong/Desktop/Work/algorithm/mergeList/mergeList/main.cpp0000000000000000^89#15#89#15#1498#0#-1#27"com.apple.dt.IDE.diagnostic3@79"file://localhost/Users/Cong/Desktop/Work/algorithm/mergeList/mergeList/main.cpp0000000000000000^96#20#96#20#1623#0#14"Semantic Issue1(3@79"file://localhost/Users/Cong/Desktop/Work/algorithm/mergeList/mergeList/main.cpp0000000000000000^96#20#96#25#1623#0#-0#0#0#-19%DVTDocumentLocation4@79"file://localhost/Users/Cong/Desktop/Work/algorithm/mergeList/mergeList/main.cpp0000000000000000^2915"CompileC Build/Intermediates/mergeList.build/Debug/mergeList.build/Objects-normal/x86_64/main.o mergeList/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Cong/Desktop/Work/algorithm/mergeList    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Cong/Desktop/Work/algorithm/mergeList/Build/Intermediates/mergeList.build/Debug/mergeList.build/mergeList-generated-files.hmap -I/Users/Cong/Desktop/Work/algorithm/mergeList/Build/Intermediates/mergeList.build/Debug/mergeList.build/mergeList-own-target-headers.hmap -I/Users/Cong/Desktop/Work/algorithm/mergeList/Build/Intermediates/mergeList.build/Debug/mergeList.build/mergeList-all-target-headers.hmap -iquote /Users/Cong/Desktop/Work/algorithm/mergeList/Build/Intermediates/mergeList.build/Debug/mergeList.build/mergeList-project-headers.hmap -I/Users/Cong/Desktop/Work/algorithm/mergeList/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Cong/Desktop/Work/algorithm/mergeList/Build/Intermediates/mergeList.build/Debug/mergeList.build/DerivedSources/x86_64 -I/Users/Cong/Desktop/Work/algorithm/mergeList/Build/Intermediates/mergeList.build/Debug/mergeList.build/DerivedSources -F/Users/Cong/Desktop/Work/algorithm/mergeList/Build/Products/Debug -MMD -MT dependencies -MF /Users/Cong/Desktop/Work/algorithm/mergeList/Build/Intermediates/mergeList.build/Debug/mergeList.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/Cong/Desktop/Work/algorithm/mergeList/Build/Intermediates/mergeList.build/Debug/mergeList.build/Objects-normal/x86_64/main.dia -c /Users/Cong/Desktop/Work/algorithm/mergeList/mergeList/main.cpp -o /Users/Cong/Desktop/Work/algorithm/mergeList/Build/Intermediates/mergeList.build/Debug/mergeList.build/Objects-normal/x86_64/main.o36"183C9053-8A60-450B-A038-48FDFCD031B2-
+
+CLd /Users/Cong/Desktop/Work/algorithm/mergeList/Build/Products/Debug/mergeList normal x86_64
+s384184269.333229
+e384184269.352366
+r1
+xLd
+x/Users/Cong/Desktop/Work/algorithm/mergeList/Build/Products/Debug/mergeList
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Link /Users/Cong/Desktop/Work/algorithm/mergeList/Build/Products/Debug/mergeList636055cd2fe6b641^72355acd2fe6b641^---0#0#0#--776"Ld Build/Products/Debug/mergeList normal x86_64    cd /Users/Cong/Desktop/Work/algorithm/mergeList    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/Cong/Desktop/Work/algorithm/mergeList/Build/Products/Debug -F/Users/Cong/Desktop/Work/algorithm/mergeList/Build/Products/Debug -filelist /Users/Cong/Desktop/Work/algorithm/mergeList/Build/Intermediates/mergeList.build/Debug/mergeList.build/Objects-normal/x86_64/mergeList.LinkFileList -mmacosx-version-min=10.8 -stdlib=libc++ -o /Users/Cong/Desktop/Work/algorithm/mergeList/Build/Products/Debug/mergeList36"81FEB956-AA4F-4283-A4E5-28CF6515DD2A-
+
